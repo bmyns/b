@@ -1,0 +1,64 @@
+.img-div{
+    background-image:url(https://cdn.thewirecutter.com/wp-content/media/2021/04/android-phone-2048px-2.jpg) ;
+    margin-top: -100px;
+    margin-left: -12px;
+    width: 100%;
+    padding: 297px 297px;
+}
+.k{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    margin-top: -170px;
+    margin-left: -150px;
+    font-family: 'Poppins', sans-serif;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+/* The animation code */
+@keyframes example {
+    from {background-color: rgb(0, 255, 128);}
+    to {background-color: rgb(182, 241, 224);}
+
+}
+/* The element to apply the animation to */
+.kt{
+    width: 250px;
+    height: 100px;
+    
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    margin-top: -170px;
+    margin-left: -150px;
+    font-family: 'Poppins', sans-serif;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+   
+}
+.but{
+    margin-top: 50px
+}
+
+.a-style{
+    text-decoration: none;
+    color:#fff;
+    background: rgb(31, 238, 93);
+    width: 200px;
+    border:3px;
+   
+    font-size: 34px;
+    padding: 10px 20px;
+}
+.a-style:hover{
+    text-decoration: none;
+    color:#fff;
+    background: rgb(11, 238, 151);
+    width: 200px;
+    border:3px;
+    font-size: 34px;
+    padding: 10px 20px;
+}
