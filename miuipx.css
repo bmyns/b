@@ -1,9 +1,9 @@
 .img-div{
-    background-image:url(https://cdn.thewirecutter.com/wp-content/media/2021/04/android-phone-2048px-2.jpg) ;
-    margin-top: -100px;
+    background-image:linear-gradient( rgb(0, 255, 128) , rgb(0, 255, 128) );
+    margin-top: -110px;
     margin-left: -12px;
-    width: 100%;
-    padding: 297px 297px;
+    padding: 200px 150px;
+    
 }
 .k{
     color: rgb(0, 0, 0);
@@ -12,13 +12,14 @@
     margin-left: -150px;
     font-family: 'Poppins', sans-serif;
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 /* The animation code */
 @keyframes example {
     from {background-color: rgb(0, 255, 128);}
-    to {background-color: rgb(182, 241, 224);}
+    to {background-color: rgb(79, 95, 238);}
+    
 
 }
 /* The element to apply the animation to */
@@ -31,8 +32,8 @@
     animation-duration: 10s;
     color: rgb(0, 0, 0);
     font-size: 60px;
-    margin-top: -170px;
-    margin-left: -150px;
+    margin-top: 120px;
+    margin-left: -140px;
     font-family: 'Poppins', sans-serif;
     animation-name: example;
     animation-duration: 7s;
@@ -46,19 +47,64 @@
 .a-style{
     text-decoration: none;
     color:#fff;
-    background: rgb(31, 238, 93);
+    background: rgb(0, 255, 128);
     width: 200px;
     border:3px;
-   
+    font-family: 'Poppins', sans-serif;
     font-size: 34px;
     padding: 10px 20px;
 }
 .a-style:hover{
     text-decoration: none;
     color:#fff;
-    background:#000;
+    background-color: rgb(112, 236, 201);
     width: 200px;
-    border:3px;
+    border:4px;
     font-size: 34px;
     padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.And12-p{
+color: #000;
+font-size: 60px;
+font-family: 'Poppins', sans-serif;
+animation-name: example;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    width: 64px;
+    height: 100px;
+    margin-top: -360px; 
+    margin-left: 260px;
+}
+.det{
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    margin-top:-300px;
+}
+
+.det-a{
+    text-decoration: none;
+    color: #000;
+
+}
+.det-a:hover{
+    text-decoration: none;
+    color: rgb(33, 61, 184);
+
+}
+.img-and{
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 180px;
+    width: 300px;
+}
+.img-and:hover{
+    margin-right: 200px;
+    width: 300px;
+    box-shadow: 5px;
+    margin-top: 180px;
+}
+
+body{
+    background:rgb(0, 255, 128);
 }
