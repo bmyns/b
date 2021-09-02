@@ -57,11 +57,11 @@
 .a-style:hover{
     text-decoration: none;
     color:#fff;
-    background-color: rgb(112, 236, 201);
-    width: 200px;
+    background-color: rgb(119, 243, 208);
+    width: 100px;
     border:4px;
+    text-align: left;
     font-size: 34px;
-    padding: 10px 20px;
     font-family: 'Poppins', sans-serif;
 }
 .And12-p{
