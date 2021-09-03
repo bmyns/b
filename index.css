@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+.div-1{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding: 0 8%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.logo{
+    width: 160px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.a{
+    color:#fff;
+    text-decoration: none;
+}
+.div-1 h1{
+    color:#fff;
+    font-size: 60px;
+    margin-top: 12%;
+
+}
+.div-1 button{
+    background: #393939;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    display: inline-block;
+    background: #3a3a3a;
+    height: 15px;
+    width: 15px;
+    border-radius:50% ;
+    margin-right: 10px;
+
+}
+.in{
+    margin-top: 100px;
+
+}
+.active{
+    background: #bfbfbf;
+}
+.cta{
+    color: #fff;
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    right: 8%;
+    bottom: 100px;
+
+}
+button:hover{
+    background: rgb(52, 146, 40);
+    
+}
+nav ul li a:hover{
+    color: darkorange;
+    
+}
+.a:hover{
+    color:darkorange;
+}
